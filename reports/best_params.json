@@ -1,0 +1,28 @@
+{
+  "baseline_lag1": {},
+  "linear_regression": {
+    "alpha": 10.0
+  },
+  "svr": {
+    "C": 0.6173770394704572,
+    "epsilon": 0.05,
+    "gamma": 0.002051110418843397,
+    "n_components": 500
+  },
+  "random_forest": {
+    "n_estimators": 124,
+    "max_depth": 16,
+    "min_samples_leaf": 10,
+    "max_features": 0.3,
+    "max_samples": 0.3
+  },
+  "xgboost": {
+    "n_estimators": 387,
+    "learning_rate": 0.039107417325490494,
+    "max_depth": 7,
+    "min_child_weight": 10,
+    "subsample": 0.7824279936868144,
+    "colsample_bytree": 0.6591670111852694,
+    "reg_lambda": 0.5404103854647329
+  }
+}
